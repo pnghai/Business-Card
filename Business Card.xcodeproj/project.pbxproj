@@ -13,6 +13,7 @@
 		840D8AF32510D14A003C508A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840D8AF22510D14A003C508A /* Preview Assets.xcassets */; };
 		840D8AFE2510D14A003C508A /* Business_CardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840D8AFD2510D14A003C508A /* Business_CardTests.swift */; };
 		840D8B092510D14A003C508A /* Business_CardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840D8B082510D14A003C508A /* Business_CardUITests.swift */; };
+		840D8B182510E204003C508A /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840D8B172510E204003C508A /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		840D8B042510D14A003C508A /* Business CardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Business CardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		840D8B082510D14A003C508A /* Business_CardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business_CardUITests.swift; sourceTree = "<group>"; };
 		840D8B0A2510D14A003C508A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840D8B172510E204003C508A /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		840D8ADF2510D149003C508A = {
 			isa = PBXGroup;
 			children = (
+				840D8B162510E1EE003C508A /* Views */,
 				840D8AEA2510D149003C508A /* Business Card */,
 				840D8AFC2510D14A003C508A /* Business CardTests */,
 				840D8B072510D14A003C508A /* Business CardUITests */,
@@ -128,6 +131,14 @@
 				840D8B0A2510D14A003C508A /* Info.plist */,
 			);
 			path = "Business CardUITests";
+			sourceTree = "<group>";
+		};
+		840D8B162510E1EE003C508A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				840D8B172510E204003C508A /* CircleImage.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +272,7 @@
 			files = (
 				840D8AEE2510D149003C508A /* ContentView.swift in Sources */,
 				840D8AEC2510D149003C508A /* Business_CardApp.swift in Sources */,
+				840D8B182510E204003C508A /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

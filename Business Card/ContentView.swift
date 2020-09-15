@@ -10,10 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         HStack(alignment: .center) {
-            Image("paulos-nice-photo").resizable().scaledToFit().clipShape(Circle())
-                .overlay(Circle().stroke(Color.white, lineWidth: 3))
-                .shadow(radius: 5)
-            
+            CircleImage(imageName: "paulos-nice-photo")
             VStack {
                 Text("Hai Phan Nguyen").font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/).foregroundColor(.white)
                 Text("https://github.io/pnghai")
